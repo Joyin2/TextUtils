@@ -36,13 +36,13 @@ export default function Navbar(props) {
          
            
           </ul>
-          <ul className="navbar-nav float-right">
+          {/* <ul className="navbar-nav float-right">
             <li>
               <button type="button" class="btn btn-light">
                 Login
               </button>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </nav>

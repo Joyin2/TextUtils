@@ -54,8 +54,9 @@ input {
   margin-top: 10px;
 }
 .button {
+  position: relative;
   background-color: #e91f63;
-  margin-top: 30px;
+  margin: 30px 15px 0 15px;
   width: 100px;
   height: 40px;
   border-radius: 20px;

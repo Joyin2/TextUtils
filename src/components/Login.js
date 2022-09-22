@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import signupImage from "../images/image-illustrator.jpg";
-import "./SIgnUp.css";
+import "./Login.css";
 
 export default function Login() {
   return (
@@ -11,19 +11,9 @@ export default function Login() {
         </div>
         <div className="signup-container">
           <div className="signup-item">
-            <h1>Sign Up</h1>
-            <h7>Enter your username, email and password to sign up</h7>
+            <h1>Sign In</h1>
+            <h7>Enter your email and password to sign in</h7>
             <form action="" method="post">
-              <input
-                className="form-control"
-                type="text"
-                placeholder="First Name"
-              ></input>
-              <input
-                className="form-control"
-                type="text"
-                placeholder="Last Name"
-              ></input>
               <input
                 className="form-control"
                 type="email"
@@ -32,11 +22,20 @@ export default function Login() {
               <input
                 className="form-control"
                 type="password"
-                placeholder="First Name"
+                placeholder="Current password"
               ></input>
 
+              <div className="remember-me">
+                <label className="switch">
+                  <input type="checkbox" />
+                  <span className="slider round"></span>
+                </label>
+                &nbsp;
+                <label>Remember me</label>
+              </div>
+
               <button type="submit" className="button ">
-                Submit
+                Sign in
               </button>
             </form>
             <div className="already-ask">
