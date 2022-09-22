@@ -5,13 +5,15 @@ import "./SIgnUp.css";
 export default function SignUp() {
   return (
     <div>
-      <div className="image-container">
-        <img src={signupImage} alt="" />
-
-        
-      </div>
-      <div className="signup-container">
-        
+      <div className="container">
+        <div className="image-container">
+          <img src={signupImage} alt="" />
+        </div>
+        <div className="signup-container">
+          <div className="signup-item">
+            
+          </div>
+        </div>
       </div>
     </div>
   );
